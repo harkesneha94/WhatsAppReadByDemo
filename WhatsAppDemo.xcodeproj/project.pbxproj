@@ -14,6 +14,8 @@
 		2CFA625722A6CAB600251680 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CFA625522A6CAB600251680 /* LaunchScreen.storyboard */; };
 		2CFA626222A6CAB600251680 /* WhatsAppDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFA626122A6CAB600251680 /* WhatsAppDemoTests.swift */; };
 		2CFA626D22A6CAB600251680 /* WhatsAppDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFA626C22A6CAB600251680 /* WhatsAppDemoUITests.swift */; };
+		2CFA627E22A6CDBF00251680 /* ReadByTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFA627C22A6CDBF00251680 /* ReadByTableViewCell.swift */; };
+		2CFA627F22A6CDBF00251680 /* ReadByTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CFA627D22A6CDBF00251680 /* ReadByTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		2CFA626822A6CAB600251680 /* WhatsAppDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsAppDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CFA626C22A6CAB600251680 /* WhatsAppDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsAppDemoUITests.swift; sourceTree = "<group>"; };
 		2CFA626E22A6CAB600251680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CFA627C22A6CDBF00251680 /* ReadByTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadByTableViewCell.swift; sourceTree = "<group>"; };
+		2CFA627D22A6CDBF00251680 /* ReadByTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReadByTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				2CFA625322A6CAB600251680 /* Assets.xcassets */,
 				2CFA625522A6CAB600251680 /* LaunchScreen.storyboard */,
 				2CFA625822A6CAB600251680 /* Info.plist */,
+				2CFA627C22A6CDBF00251680 /* ReadByTableViewCell.swift */,
+				2CFA627D22A6CDBF00251680 /* ReadByTableViewCell.xib */,
 			);
 			path = WhatsAppDemo;
 			sourceTree = "<group>";
@@ -231,6 +237,7 @@
 			files = (
 				2CFA625722A6CAB600251680 /* LaunchScreen.storyboard in Resources */,
 				2CFA625422A6CAB600251680 /* Assets.xcassets in Resources */,
+				2CFA627F22A6CDBF00251680 /* ReadByTableViewCell.xib in Resources */,
 				2CFA625222A6CAB400251680 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CFA627E22A6CDBF00251680 /* ReadByTableViewCell.swift in Sources */,
 				2CFA624F22A6CAB400251680 /* ViewController.swift in Sources */,
 				2CFA624D22A6CAB400251680 /* AppDelegate.swift in Sources */,
 			);
@@ -438,7 +446,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ril.jio.scrollViewDemo.WhatsAppDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ril.jio.whatsAppDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -455,7 +463,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ril.jio.scrollViewDemo.WhatsAppDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ril.jio.whatsAppDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
