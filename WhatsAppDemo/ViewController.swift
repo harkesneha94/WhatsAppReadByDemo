@@ -50,6 +50,8 @@ extension UIViewController : UITableViewDelegate, UITableViewDataSource {
         }
         
         cell.setSelected(false, animated: true)
+        
+        print("Initial commit")
     }
     
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
